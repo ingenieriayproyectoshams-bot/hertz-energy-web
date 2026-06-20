@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  /* Colores derivados del logo HERTZ ENERGY */
+  --color-hertz-blue: #1A4870;
+  --color-hertz-gray: #8394A8;
+  --color-hertz-yellow: #F5BA00;
+
+  /* Colores del sistema */
+  --color-hertz-navy: #0F1F3D;
+  --color-hertz-steel: #E2E8F0;
+  --color-hertz-bg: #F4F6F9;
+  --color-hertz-white: #FFFFFF;
+  --color-hertz-text: #1A2332;
+  --color-hertz-muted: #64748B;
+  --color-whatsapp: #25D366;
+
+  /* Tipografía */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #F4F6F9;
+  --foreground: #1A2332;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
