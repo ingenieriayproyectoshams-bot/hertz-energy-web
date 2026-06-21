@@ -8,7 +8,7 @@ const services = [
     href: "/energia-solar",
     accentColor: "border-hertz-yellow",
     description:
-      "Plantas fotovoltaicas para empresas, comercios y proyectos institucionales. Diseño técnico, instalación y puesta en marcha.",
+      "Sistemas fotovoltaicos para residencias, comercios, industrias e instituciones. Diseño técnico, instalación y puesta en marcha.",
     icon: (
       <svg className="h-8 w-8 text-hertz-yellow" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
         <circle cx="12" cy="12" r="4" />
