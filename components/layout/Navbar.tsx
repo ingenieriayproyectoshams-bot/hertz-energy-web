@@ -22,12 +22,15 @@ export default function Navbar() {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-8">
 
         {/* Logo */}
-        <Link href="/" className="flex-shrink-0">
+        <Link
+          href="/"
+          className="flex-shrink-0 inline-flex items-center rounded-xl bg-white px-4 py-2"
+        >
           <Image
             src="/logo-hertz.svg"
             alt="HERTZ ENERGY"
-            width={160}
-            height={40}
+            width={180}
+            height={45}
             priority
             className="h-10 w-auto"
           />

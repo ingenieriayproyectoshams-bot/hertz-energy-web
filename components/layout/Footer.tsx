@@ -25,13 +25,15 @@ export default function Footer() {
 
           {/* Brand column */}
           <div className="flex flex-col gap-5">
-            <Image
-              src="/logo-hertz.svg"
-              alt="HERTZ ENERGY"
-              width={130}
-              height={33}
-              className="h-9 w-auto"
-            />
+            <div className="inline-flex w-fit items-center rounded-xl bg-white px-3 py-1.5">
+              <Image
+                src="/logo-hertz.svg"
+                alt="HERTZ ENERGY"
+                width={150}
+                height={38}
+                className="h-9 w-auto"
+              />
+            </div>
             <p className="text-sm leading-relaxed text-hertz-muted">
               Ingeniería electromecánica especializada en soluciones energéticas e hidráulicas para empresas, comercios e industria en David, Chiriquí.
             </p>
