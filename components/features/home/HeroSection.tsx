@@ -18,15 +18,14 @@ export default function HeroSection() {
         {/* Headline */}
         <h1 className="max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
           Ingeniería Electromecánica{" "}
-          <span className="text-hertz-yellow">para Proyectos de Alto Valor</span>{" "}
+          <span className="text-hertz-yellow">para Proyectos Residenciales, Comerciales e Institucionales</span>{" "}
           en Chiriquí
         </h1>
 
         {/* Subheadline */}
         <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
           Especializados en energía solar, ingeniería eléctrica y sistemas
-          hidráulicos para comercios, industrias, instituciones y proyectos
-          residenciales seleccionados.
+          hidráulicos para residencias, comercios, industrias e instituciones.
         </p>
 
         {/* CTAs */}

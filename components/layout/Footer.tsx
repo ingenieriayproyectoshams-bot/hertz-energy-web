@@ -25,13 +25,13 @@ export default function Footer() {
 
           {/* Brand column */}
           <div className="flex flex-col gap-5">
-            <div className="inline-flex w-fit items-center rounded-xl bg-white px-3 py-1.5">
+            <div className="inline-flex w-fit items-center rounded-lg bg-white px-4 py-1">
               <Image
-                src="/logo-hertz.svg"
+                src="/logo-hertz.png"
                 alt="HERTZ ENERGY"
                 width={150}
                 height={38}
-                className="h-9 w-auto"
+                className="h-8 w-auto"
               />
             </div>
             <p className="text-sm leading-relaxed text-hertz-muted">

@@ -24,10 +24,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="flex-shrink-0 inline-flex items-center rounded-xl bg-white px-4 py-2"
+          className="flex-shrink-0 inline-flex items-center rounded-lg bg-white px-5 py-1"
         >
           <Image
-            src="/logo-hertz.svg"
+            src="/logo-hertz.png"
             alt="HERTZ ENERGY"
             width={180}
             height={45}
