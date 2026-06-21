@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "50760000000";
+const WHATSAPP_NUMBER = "50763492276";
 
 export const WHATSAPP_MESSAGES = {
   default:   "Hola, me interesa obtener una cotización con HERTZ ENERGY.",

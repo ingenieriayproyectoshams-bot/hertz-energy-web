@@ -81,7 +81,7 @@ export default function ContactoPage() {
                       rel="noopener noreferrer"
                       className="text-sm font-medium text-hertz-text hover:text-whatsapp transition-colors"
                     >
-                      +507 60 000-000
+                      +507 6349-2276
                     </a>
                   </div>
                 </div>
@@ -101,6 +101,26 @@ export default function ContactoPage() {
                     <p className="text-sm font-medium text-hertz-text">
                       Lunes a Viernes · 8:00 am – 5:00 pm
                     </p>
+                  </div>
+                </div>
+
+                {/* Correo */}
+                <div className="flex items-start gap-4">
+                  <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-hertz-blue/10">
+                    <svg className="h-5 w-5 text-hertz-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="mb-0.5 text-xs font-semibold uppercase tracking-widest text-hertz-muted">
+                      Correo
+                    </p>
+                    <a
+                      href="mailto:ingenieriayproyectos.hams@gmail.com"
+                      className="text-sm font-medium text-hertz-text hover:text-hertz-blue transition-colors"
+                    >
+                      ingenieriayproyectos.hams@gmail.com
+                    </a>
                   </div>
                 </div>
               </div>

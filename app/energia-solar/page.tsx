@@ -6,16 +6,16 @@ import ServicePageLayout, {
 export const metadata: Metadata = {
   title: "Energía Solar en David, Chiriquí | HERTZ ENERGY",
   description:
-    "Diseño, instalación y puesta en marcha de plantas fotovoltaicas para empresas, comercios e instituciones en David, Chiriquí, Panamá.",
+    "Diseño, instalación y puesta en marcha de sistemas fotovoltaicos para residencias, comercios, empresas e instituciones en David, Chiriquí, Panamá.",
 };
 
 const data: ServicePageData = {
   badge: "Energía Solar · HERTZ ENERGY",
   titlePrefix: "Sistemas de ",
   titleAccent: "Energía Solar",
-  titleSuffix: " para Empresas en David, Chiriquí",
+  titleSuffix: " para Residencias, Comercios e Industrias en Chiriquí",
   heroDescription:
-    "Diseño, instalación y puesta en marcha de plantas fotovoltaicas para reducir costos energéticos y generar independencia eléctrica en tu empresa, comercio o institución.",
+    "Diseño, instalación y puesta en marcha de sistemas fotovoltaicos para reducir costos energéticos y generar independencia eléctrica en residencias, empresas, comercios e instituciones de Chiriquí.",
   whatsappKey: "solar",
 
   resolveItems: [
@@ -42,12 +42,12 @@ const data: ServicePageData = {
   ],
 
   targetClients: [
+    "Residencias y viviendas unifamiliares",
     "Empresas comerciales y de servicios",
     "Plantas industriales y manufactureras",
     "Instituciones educativas",
     "Entidades públicas y hospitales",
     "Hoteles y centros de hospedaje",
-    "Constructoras con proyectos sostenibles",
     "Centros comerciales y plazas",
     "Edificios corporativos y de oficinas",
   ],
@@ -97,7 +97,7 @@ const data: ServicePageData = {
 
   ctaHeading: "¿Listo para reducir tu factura eléctrica?",
   ctaDescription:
-    "Escríbenos por WhatsApp y recibe una evaluación técnica de tu proyecto solar. Atendemos empresas, comercios e instituciones en David y toda la provincia de Chiriquí.",
+    "Escríbenos por WhatsApp y recibe una evaluación técnica de tu proyecto solar. Atendemos residencias, comercios, empresas e instituciones en David y toda la provincia de Chiriquí.",
 };
 
 export default function EnergíaSolarPage() {

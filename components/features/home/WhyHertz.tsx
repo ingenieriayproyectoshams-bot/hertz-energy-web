@@ -10,9 +10,9 @@ const pillars = [
     ),
   },
   {
-    title: "Clientes comerciales e industriales",
+    title: "Residencias, comercios e industria",
     description:
-      "Atendemos empresas, constructoras, instituciones y proyectos de alto valor. Cobertura en David y toda la provincia de Chiriquí.",
+      "Atendemos residencias, comercios, industrias, constructoras e instituciones en David y toda la provincia de Chiriquí.",
     icon: (
       <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
@@ -56,8 +56,9 @@ export default function WhyHertz() {
             Por qué HERTZ ENERGY
           </h2>
           <p className="mt-4 text-base leading-7 text-hertz-muted">
-            No somos una empresa de servicios generales. Somos ingenieros
-            especializados en proyectos energéticos e hidráulicos de alto nivel.
+            Ingeniería electromecánica especializada en energía solar,
+            instalaciones eléctricas y sistemas hidráulicos para residencias,
+            comercios, industrias e instituciones en Chiriquí.
           </p>
         </div>
 
