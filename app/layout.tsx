@@ -18,6 +18,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "HERTZ ENERGY | Ingeniería Electromecánica en David, Chiriquí",
   description: "Ingeniería electromecánica en David, Chiriquí, Panamá. Diseño eléctrico, energía solar, sistemas hidráulicos, planos técnicos y memorias de cálculo para proyectos residenciales, comerciales, industriales e institucionales.",
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({
