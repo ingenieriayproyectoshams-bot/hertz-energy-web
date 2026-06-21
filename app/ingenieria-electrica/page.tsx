@@ -81,7 +81,7 @@ const data: ServicePageData = {
       ),
       title: "Materiales de primera línea",
       description:
-        "Utilizamos exclusivamente marcas reconocidas en ingeniería eléctrica industrial: Siemens, Eaton, Schneider Electric, Leviton y Hubbell.",
+        "Seleccionamos materiales y equipos certificados de alta calidad, adecuados para cada proyecto y conforme a las normativas vigentes, garantizando seguridad, confiabilidad y durabilidad a largo plazo.",
     },
     {
       icon: (
