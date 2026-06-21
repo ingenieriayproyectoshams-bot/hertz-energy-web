@@ -26,7 +26,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="flex flex-col gap-5">
             <Image
-              src="/logo-hertz.png"
+              src="/logo-hertz.svg"
               alt="HERTZ ENERGY"
               width={130}
               height={33}

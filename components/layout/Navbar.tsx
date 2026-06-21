@@ -24,7 +24,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image
-            src="/logo-hertz.png"
+            src="/logo-hertz.svg"
             alt="HERTZ ENERGY"
             width={160}
             height={40}

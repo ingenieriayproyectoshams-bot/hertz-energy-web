@@ -18,15 +18,15 @@ export default function HeroSection() {
         {/* Headline */}
         <h1 className="max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
           Ingeniería Electromecánica{" "}
-          <span className="text-hertz-yellow">para Empresas</span>{" "}
-          en David, Chiriquí
+          <span className="text-hertz-yellow">para Proyectos de Alto Valor</span>{" "}
+          en Chiriquí
         </h1>
 
         {/* Subheadline */}
         <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
-          Especializados en energía solar, instalaciones eléctricas industriales
-          y sistemas hidráulicos avanzados. Atendemos proyectos comerciales,
-          constructoras e instituciones en Chiriquí, Panamá.
+          Especializados en energía solar, ingeniería eléctrica y sistemas
+          hidráulicos para comercios, industrias, instituciones y proyectos
+          residenciales seleccionados.
         </p>
 
         {/* CTAs */}
