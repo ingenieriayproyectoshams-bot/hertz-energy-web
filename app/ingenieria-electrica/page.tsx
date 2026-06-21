@@ -6,23 +6,23 @@ import ServicePageLayout, {
 export const metadata: Metadata = {
   title: "Ingeniería Eléctrica en David, Chiriquí | HERTZ ENERGY",
   description:
-    "Instalaciones eléctricas industriales y comerciales, aumentos de carga, diseños técnicos y tableros de distribución en David, Chiriquí, Panamá.",
+    "Ingeniería eléctrica en David, Chiriquí, Panamá. Instalaciones eléctricas, planos eléctricos, memorias de cálculo, tableros de distribución y diseño técnico para residencias, comercios e industria.",
 };
 
 const data: ServicePageData = {
   badge: "Ingeniería Eléctrica · HERTZ ENERGY",
   titlePrefix: "Instalaciones Eléctricas ",
-  titleAccent: "Industriales y Comerciales",
+  titleAccent: "para Residencias, Comercios e Industrias",
   titleSuffix: " en Chiriquí",
   heroDescription:
-    "Proyectos de ingeniería eléctrica de alta complejidad: tableros de distribución, aumentos de carga, diseños técnicos certificados e instalaciones para empresas que exigen cumplimiento normativo y calidad de primer nivel.",
+    "Instalaciones eléctricas, planos eléctricos, memorias de cálculo y consultoría de ingeniería para residencias, comercios, industrias e instituciones en Chiriquí. Aumentos de carga, tableros de distribución y diseños técnicos certificados con cumplimiento normativo garantizado.",
   whatsappKey: "electrica",
 
   resolveItems: [
     {
       title: "Instalaciones eléctricas deficientes o fuera de norma",
       description:
-        "Diagnóstico, diseño y ejecución de instalaciones eléctricas seguras que cumplen las normativas vigentes del código eléctrico nacional y los requerimientos de la ETESA.",
+        "Diagnóstico, diseño y ejecución de instalaciones eléctricas seguras que cumplen las normativas vigentes del código eléctrico nacional y los requerimientos de las entidades correspondientes.",
     },
     {
       title: "Necesidad de aumentar la capacidad eléctrica",
@@ -35,9 +35,9 @@ const data: ServicePageData = {
         "Modernización e instalación de tableros de distribución industrial y comercial con equipos de primera línea: Siemens, Eaton y Schneider Electric.",
     },
     {
-      title: "Diseños y planos técnicos para construcción",
+      title: "Planos eléctricos, memorias de cálculo y APUs",
       description:
-        "Elaboración de diseños eléctricos, planos y memorias de cálculo selladas para permisos de construcción, licitaciones y trámites municipales.",
+        "Elaboración de planos eléctricos sellados, memorias de cálculo, presupuestos y análisis de precios unitarios (APUs) para permisos de construcción, licitaciones, bancos y trámites municipales en Panamá.",
     },
   ],
 
@@ -71,7 +71,7 @@ const data: ServicePageData = {
       ),
       title: "Cumplimiento normativo garantizado",
       description:
-        "Todos los proyectos se ejecutan conforme al Código Eléctrico Nacional (NEC) y las regulaciones vigentes de la ETESA y autoridades de Chiriquí.",
+        "Todos los proyectos se ejecutan conforme al Código Eléctrico Nacional (NEC) y las regulaciones vigentes de las entidades correspondientes de Panamá.",
     },
     {
       icon: (

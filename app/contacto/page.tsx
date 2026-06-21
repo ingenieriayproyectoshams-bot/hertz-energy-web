@@ -99,7 +99,7 @@ export default function ContactoPage() {
                       Horario
                     </p>
                     <p className="text-sm font-medium text-hertz-text">
-                      Lunes a Viernes · 8:00 am – 5:00 pm
+                      Todos los días · 8:00 am – 8:00 pm
                     </p>
                   </div>
                 </div>

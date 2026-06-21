@@ -6,7 +6,7 @@ import ServicePageLayout, {
 export const metadata: Metadata = {
   title: "Sistemas Hidráulicos en David, Chiriquí | HERTZ ENERGY",
   description:
-    "Diseño e instalación de sistemas hidroneumáticos, cuartos de bombas y redes de agua para edificaciones e industria en David, Chiriquí, Panamá.",
+    "Diseño hidrosanitario y sistemas hidráulicos en David, Chiriquí, Panamá. Planos hidrosanitarios, sistemas hidroneumáticos, cuartos de bombas y redes de agua para residencias, comercios, industrias e instituciones.",
 };
 
 const data: ServicePageData = {
@@ -15,7 +15,7 @@ const data: ServicePageData = {
   titleAccent: "para Edificaciones e Industria",
   titleSuffix: " en Chiriquí",
   heroDescription:
-    "Diseño e instalación de sistemas hidroneumáticos, cuartos de bombas y redes de agua para proyectos que demandan presión constante, caudal adecuado y confiabilidad operativa.",
+    "Diseño hidrosanitario, instalación de sistemas hidroneumáticos, cuartos de bombas y redes de agua para residencias, comercios, industrias e instituciones. Planos técnicos y soluciones de ingeniería con presión constante y confiabilidad operativa.",
   whatsappKey: "hidraulica",
 
   resolveItems: [
@@ -30,9 +30,9 @@ const data: ServicePageData = {
         "Modernización e instalación de cuartos de bombas con equipos de alta eficiencia energética, control automático y diseño técnico para operación continua.",
     },
     {
-      title: "Redes hidráulicas para nuevas construcciones",
+      title: "Redes hidrosanitarias para nuevas construcciones",
       description:
-        "Diseño y construcción de redes de agua potable, pluvial y contra incendios para proyectos comerciales, institucionales y residenciales de alto valor en Chiriquí.",
+        "Diseño hidrosanitario y construcción de redes de agua potable, pluvial y contra incendios para proyectos residenciales, comerciales e institucionales en Chiriquí, con planos técnicos y memorias de cálculo incluidas.",
     },
     {
       title: "Procesos industriales que requieren agua a presión",

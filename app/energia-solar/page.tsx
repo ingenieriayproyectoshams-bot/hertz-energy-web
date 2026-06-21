@@ -6,7 +6,7 @@ import ServicePageLayout, {
 export const metadata: Metadata = {
   title: "Energía Solar en David, Chiriquí | HERTZ ENERGY",
   description:
-    "Diseño, instalación y puesta en marcha de sistemas fotovoltaicos para residencias, comercios, empresas e instituciones en David, Chiriquí, Panamá.",
+    "Paneles solares y sistemas fotovoltaicos en David, Chiriquí, Panamá. Diseño, instalación y puesta en marcha para residencias, comercios, industrias e instituciones. Energía solar en Panamá.",
 };
 
 const data: ServicePageData = {
@@ -30,9 +30,9 @@ const data: ServicePageData = {
         "Sistemas con y sin respaldo de batería para garantizar continuidad operativa ante cortes del suministro eléctrico y variaciones de voltaje.",
     },
     {
-      title: "Metas de sostenibilidad corporativa",
+      title: "Compromiso con la sostenibilidad ambiental",
       description:
-        "Proyectos solares documentados y certificados que contribuyen al cumplimiento de metas ESG y fortalecen la imagen institucional de tu organización.",
+        "Sistemas solares certificados que reducen la huella de carbono de tu hogar, empresa o institución, con documentación técnica completa para cualquier trámite o certificación ambiental.",
     },
     {
       title: "Falta de asesoría técnica especializada",
@@ -71,7 +71,7 @@ const data: ServicePageData = {
       ),
       title: "Diseño técnico certificado",
       description:
-        "Memorias de cálculo, planos eléctricos y documentación técnica para aprobaciones ante la ETESA y otras entidades regulatorias de Panamá.",
+        "Memorias de cálculo, planos eléctricos y documentación técnica para trámites, permisos y aprobaciones ante las entidades correspondientes de Panamá.",
     },
     {
       icon: (
