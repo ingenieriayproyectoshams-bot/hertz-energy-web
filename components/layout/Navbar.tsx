@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
+import WhatsAppLink from "@/components/ui/WhatsAppLink";
 
 const navLinks = [
   { href: "/",                    label: "Inicio" },
@@ -51,14 +52,13 @@ export default function Navbar() {
         </ul>
 
         {/* Desktop CTA */}
-        <a
+        <WhatsAppLink
           href={whatsappUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+          location="navbar"
           className="hidden xl:inline-flex items-center gap-2 rounded-full bg-hertz-yellow px-5 py-2 text-sm font-semibold text-hertz-navy hover:brightness-105 transition-all duration-200"
         >
           Cotizar por WhatsApp
-        </a>
+        </WhatsAppLink>
 
         {/* Tablet links — abbreviated */}
         <ul className="hidden lg:flex xl:hidden items-center gap-5">
@@ -76,14 +76,13 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a
+        <WhatsAppLink
           href={whatsappUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+          location="navbar"
           className="hidden lg:inline-flex xl:hidden items-center gap-2 rounded-full bg-hertz-yellow px-4 py-2 text-xs font-semibold text-hertz-navy hover:brightness-105 transition-all duration-200"
         >
           Cotizar
-        </a>
+        </WhatsAppLink>
 
         {/* Mobile hamburger */}
         <button
@@ -121,14 +120,13 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <a
+          <WhatsAppLink
             href={whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            location="navbar"
             className="mt-5 flex items-center justify-center rounded-full bg-hertz-yellow px-5 py-3 text-sm font-semibold text-hertz-navy"
           >
             Cotizar por WhatsApp
-          </a>
+          </WhatsAppLink>
         </div>
       )}
     </header>

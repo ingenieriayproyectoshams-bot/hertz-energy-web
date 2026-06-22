@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { buildWhatsAppUrl, type WhatsAppService } from "@/lib/whatsapp";
+import WhatsAppLink from "@/components/ui/WhatsAppLink";
 
 const services = [
   {
@@ -87,14 +88,14 @@ export default function ServicesGrid() {
 
                 {/* Links */}
                 <div className="mt-8 flex flex-col gap-3">
-                  <a
+                  <WhatsAppLink
                     href={whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    location="service_card"
+                    service={service.key}
                     className="inline-flex items-center justify-center rounded-full bg-hertz-navy px-5 py-2.5 text-sm font-semibold text-white hover:bg-hertz-blue transition-colors duration-200"
                   >
                     Cotizar este servicio
-                  </a>
+                  </WhatsAppLink>
                   <Link
                     href={service.href}
                     className="text-center text-sm font-medium text-hertz-blue hover:text-hertz-navy transition-colors"

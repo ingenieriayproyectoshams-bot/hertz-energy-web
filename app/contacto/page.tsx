@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
+import WhatsAppLink from "@/components/ui/WhatsAppLink";
 
 export const metadata: Metadata = {
   title: "Contacto | HERTZ ENERGY",
@@ -75,14 +76,13 @@ export default function ContactoPage() {
                     <p className="mb-0.5 text-xs font-semibold uppercase tracking-widest text-hertz-muted">
                       WhatsApp
                     </p>
-                    <a
+                    <WhatsAppLink
                       href={whatsappUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      location="contact_page"
                       className="text-sm font-medium text-hertz-text hover:text-whatsapp transition-colors"
                     >
                       +507 6349-2276
-                    </a>
+                    </WhatsAppLink>
                   </div>
                 </div>
 
@@ -134,14 +134,13 @@ export default function ContactoPage() {
                   Escríbenos por WhatsApp y recibirás respuesta del equipo
                   técnico de HERTZ ENERGY sin esperas ni formularios.
                 </p>
-                <a
+                <WhatsAppLink
                   href={whatsappUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  location="contact_page"
                   className="inline-flex items-center gap-2 rounded-full bg-hertz-yellow px-6 py-3 text-sm font-semibold text-hertz-navy hover:brightness-105 transition-all duration-200"
                 >
                   Abrir WhatsApp
-                </a>
+                </WhatsAppLink>
               </div>
             </div>
 

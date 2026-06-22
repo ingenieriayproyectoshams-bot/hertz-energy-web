@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { buildWhatsAppUrl, type WhatsAppService } from "@/lib/whatsapp";
+import WhatsAppLink from "@/components/ui/WhatsAppLink";
 
 export interface ResolveItem {
   title: string;
@@ -50,14 +51,14 @@ export default function ServicePageLayout({ data }: { data: ServicePageData }) {
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <a
+            <WhatsAppLink
               href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              location="service_hero"
+              service={data.whatsappKey}
               className="inline-flex items-center justify-center rounded-full bg-hertz-yellow px-8 py-3.5 text-base font-semibold text-hertz-navy hover:brightness-105 transition-all duration-200"
             >
               Cotizar por WhatsApp
-            </a>
+            </WhatsAppLink>
             <a
               href="#que-resolvemos"
               className="inline-flex items-center justify-center rounded-full border border-white/30 px-8 py-3.5 text-base font-medium text-white hover:border-white/60 hover:bg-white/5 transition-all duration-200"
@@ -194,14 +195,14 @@ export default function ServicePageLayout({ data }: { data: ServicePageData }) {
           </p>
 
           <div className="mt-10">
-            <a
+            <WhatsAppLink
               href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              location="service_cta"
+              service={data.whatsappKey}
               className="inline-flex items-center justify-center rounded-full bg-hertz-yellow px-10 py-4 text-base font-semibold text-hertz-navy hover:brightness-105 transition-all duration-200"
             >
               Cotizar por WhatsApp
-            </a>
+            </WhatsAppLink>
           </div>
 
           <div className="mx-auto mt-12 h-px w-16 bg-hertz-yellow/50" />

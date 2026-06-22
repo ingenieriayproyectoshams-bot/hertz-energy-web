@@ -1,4 +1,5 @@
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
+import WhatsAppLink from "@/components/ui/WhatsAppLink";
 
 export default function CTABanner() {
   const url = buildWhatsAppUrl();
@@ -22,14 +23,13 @@ export default function CTABanner() {
         </p>
 
         <div className="mt-10">
-          <a
+          <WhatsAppLink
             href={url}
-            target="_blank"
-            rel="noopener noreferrer"
+            location="cta_banner"
             className="inline-flex items-center justify-center rounded-full bg-hertz-yellow px-10 py-4 text-base font-semibold text-hertz-navy hover:brightness-105 transition-all duration-200"
           >
             Cotizar ahora por WhatsApp
-          </a>
+          </WhatsAppLink>
         </div>
 
         {/* Accent line */}

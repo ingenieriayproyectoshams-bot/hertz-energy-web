@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
+import WhatsAppLink from "@/components/ui/WhatsAppLink";
 
 const services = [
   { href: "/energia-solar",        label: "Energía Solar" },
@@ -37,14 +38,13 @@ export default function Footer() {
             <p className="text-sm leading-relaxed text-hertz-muted">
               Ingeniería electromecánica especializada en soluciones energéticas e hidráulicas para empresas, comercios e industria en David, Chiriquí.
             </p>
-            <a
+            <WhatsAppLink
               href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              location="footer"
               className="inline-flex w-fit items-center gap-2 rounded-full bg-hertz-yellow px-4 py-2 text-sm font-semibold text-hertz-navy hover:brightness-105 transition-all"
             >
               Cotizar por WhatsApp
-            </a>
+            </WhatsAppLink>
           </div>
 
           {/* Services column */}
@@ -91,14 +91,13 @@ export default function Footer() {
               >
                 ✉️ ingenieriayproyectos.hams@gmail.com
               </a>
-              <a
+              <WhatsAppLink
                 href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                location="footer"
                 className="hover:text-hertz-yellow transition-colors"
               >
                 💬 +507 6349-2276
-              </a>
+              </WhatsAppLink>
             </div>
           </div>
 
